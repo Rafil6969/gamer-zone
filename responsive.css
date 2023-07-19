@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
     .nav-container{
         width: 100%;
         flex-direction: column;
@@ -19,4 +19,268 @@
 
 @media screen and (min-width: 576px) and (max-width: 992px){
     
+} */
+/* media queries */
+
+/* -------Mobile devices------- */
+@media screen and (max-width:576px) {
+
+    /* common */
+    .nav-container,
+    .nav-items-container,
+    .banner,
+    .funny-videos-collection,
+    .play-instant {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* nav section */
+    .nav-container {
+        padding: 60px 60px;
+        gap: 40px;
+    }
+
+    .nav-items-container {
+        gap: 40px;
+    }
+
+    /* banner section */
+    .banner {
+        flex-direction: column-reverse;
+        padding: 30px 30px;
+    }
+    .banner-img-container{
+        margin-bottom: 40px;
+    }
+
+    .banner-img-container img {
+        width: 100%;
+    }
+
+    .primary-btn {
+        padding: 10px 30px;
+        gap: 10px;
+        border-radius: 38px;
+    }
+
+    .go-rogue-btn {
+        padding: 10px 30px;
+        border-radius: 28px;
+        margin-left: 20px;
+    }
+
+    /* funny videos section */
+    .funny-videos {
+        padding: 30px 30px;
+    }
+
+    .funny-videos-content {
+        text-align: center;
+    }
+
+    .funny-videos-collection {
+        gap: 40px;
+    }
+
+    .video-description {
+        text-align: center;
+    }
+
+    /* play instant section */
+    .play-instant {
+        padding: 30px 30px;
+    }
+
+    .play-instant-content {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .play-instant-img-container {
+        width: 90%;
+    }
+
+    .horse-man {
+        width: 80%;
+    }
+
+    .talking-angela {
+        width: 40%;
+        left: -30px;
+        bottom: -30px;
+    }
+
+    /* game category section */
+    .game-categories {
+        padding: 40px 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .category {
+        gap: 5px;
+        padding: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    .category:nth-child(6) {
+        margin-left: 0;
+    }
+
+    .category-title {
+        font-size: 0.5rem;
+        font-weight: 400;
+    }
+
+    .category img {
+        height: 30px;
+        width: 30px;
+    }
+
+    /* footer */
+    footer {
+        padding: 40px 30px;
+    }
+
+    .site-navigation,
+    .social-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .site-navigation a {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .legal-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .legal-links a,
+    .copyright {
+        color: rgba(255, 255, 255, 0.60);
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+}
+
+
+/* ------------tablet devices------------*/
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    /* common */
+    .nav,
+    .banner,
+    .play-instant {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* nav section */
+    .nav {
+        padding: 60px 60px;
+        gap: 40px;
+    }
+
+    /* banner section */
+    .banner {
+        flex-direction: column-reverse;
+        padding: 40px 60px;
+    }
+
+    .banner-img-container img {
+        width: 100%;
+    }
+
+    .banner-content-texts {
+        margin: 60px 20px;
+    }
+
+
+    /* funny videos section */
+    .funny-videos {
+        padding: 30px 50px;
+    }
+
+    .funny-videos-content {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .funny-videos-collection {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    /* play instant section */
+    .play-instant {
+        padding: 30px 50px;
+    }
+
+    .play-instant-content {
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* game category section */
+    .game-categories {
+        margin-top: 60px;
+        padding: 40px 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .category:nth-child(6) {
+        margin-left: 0;
+    }
+
+    .category-title {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    .category img {
+        height: 50px;
+        width: 50px;
+    }
+
+    /* footer */
+    footer {
+        padding: 40px 50px;
+    }
+
+    .site-navigation,
+    .social-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .site-navigation a {
+        margin: 0;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    .legal-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .legal-links a,
+    .copyright {
+        color: rgba(255, 255, 255, 0.60);
+        font-size: 1rem;
+        font-weight: 400;
+    }
 }
