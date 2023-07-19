@@ -1,32 +1,7 @@
-/* @media screen and (max-width: 576px) {
-    .nav-container{
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .nav-horizontal{
-        display: flex;
-        flex-direction: column;
-    }
-    .nav-items-container{
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-@media screen and (min-width: 576px) and (max-width: 992px){
-    
-} */
-/* media queries */
-
-/* -------Mobile devices------- */
 @media screen and (max-width:576px) {
 
     /* common */
-    .nav-container,
+    .nav,
     .nav-items-container,
     .banner,
     .funny-videos-collection,
@@ -36,8 +11,8 @@
     }
 
     /* nav section */
-    .nav-container {
-        padding: 60px 60px;
+    .nav {
+        padding: 50px;
         gap: 40px;
     }
 
@@ -48,9 +23,10 @@
     /* banner section */
     .banner {
         flex-direction: column-reverse;
-        padding: 30px 30px;
+        padding: 50px 30px;
     }
-    .banner-img-container{
+
+    .banner-img-container {
         margin-bottom: 40px;
     }
 
@@ -58,13 +34,13 @@
         width: 100%;
     }
 
-    .primary-btn {
+    .btn {
         padding: 10px 30px;
         gap: 10px;
         border-radius: 38px;
     }
 
-    .go-rogue-btn {
+    .rogue-btn {
         padding: 10px 30px;
         border-radius: 28px;
         margin-left: 20px;
@@ -89,7 +65,7 @@
 
     /* play instant section */
     .play-instant {
-        padding: 30px 30px;
+        padding: 50px 30px;
     }
 
     .play-instant-content {

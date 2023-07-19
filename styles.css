@@ -1,10 +1,12 @@
+/* shared styles */
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-/* shared styles */
+
 .logo-container {
     display: flex;
     align-items: center;
@@ -31,7 +33,7 @@
     line-height: 30px;
 }
 
-.primary-btn {
+.btn {
     padding: 21px 40px;
     gap: 10px;
     border-radius: 48px;
@@ -58,26 +60,15 @@
 
 /* navigation bar styles */
 .nav {
-    width: 100%;
-    padding: 10px;
-    background-color: white;
-    /* border: 2px solid black; */
-
-}
-
-.nav-container {
     min-height: 50px;
     padding: 30px 240px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
 }
 
-
-.pink {
-    color: #FF42A5;
-}
 
 .nav-items-container {
     display: flex;
@@ -99,16 +90,18 @@
 
 }
 
-.nav-horizontal {}
 
 .nav-items-follow {
+
+
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 5px;
+    padding: 5px;
+    gap: 5px;
+
 }
 
 #img-1 {
@@ -146,14 +139,11 @@
     width: 24px;
     height: 24px;
 }
-
 .goat {
     font-size: 5.5rem;
     font-weight: 800;
-
 }
-
-.go-rogue-btn {
+.rogue-btn {
     padding: 21px 40px;
     border-radius: 48px;
     border: none;
@@ -171,8 +161,7 @@
     justify-content: center;
 }
 
-
-/*online games funny videos styles */
+/* funny videos styles */
 .funny-videos {
     padding: 60px 240px;
 }
@@ -192,6 +181,7 @@
     height: 400px;
     border-radius: 16px;
 }
+
 .funny-videos-collection .video {
     position: relative;
 }
@@ -246,7 +236,7 @@
 }
 
 
-/* play instantly styles */
+/* play instant styles */
 .play-instant {
     padding: 60px 240px;
     display: flex;
@@ -255,7 +245,7 @@
 }
 
 .play-instant-content {
-    text-align:end;
+    text-align: end;
     padding: 120px;
 }
 
@@ -271,7 +261,7 @@
 }
 
 
-/* games catogeries section */
+/* games categories section */
 .game-categories {
     padding: 200px 240px;
     display: flex;
@@ -299,15 +289,15 @@
 
 .category:hover {
     border-radius: 50px;
-    border: 1px solid #FF42A5;
+    border: 1px solid #0c1d9e;
 }
 
-.category:hover  .category-title {
+.category:hover .category-title {
     color: #FF42A5;
 }
 
 
-/* footer styles */
+/* footer section styles */
 footer {
     padding: 120px 360px;
     background-color: #0B0223;
